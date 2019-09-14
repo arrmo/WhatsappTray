@@ -22,6 +22,7 @@
 #pragma once
 
 #include <thread>
+#include <string>
 
 class DirectoryWatcher;
 
