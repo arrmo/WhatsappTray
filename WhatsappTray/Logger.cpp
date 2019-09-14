@@ -29,7 +29,8 @@
 #include <time.h>
 
 std::ofstream Logger::logFile;
-Loglevel Logger::loglevelToLog = Loglevel::LOG_ERROR;
+//Loglevel Logger::loglevelToLog = Loglevel::LOG_ERROR;
+Loglevel Logger::loglevelToLog = Loglevel::LOG_NONE;
 bool Logger::isSetupDone = false;
 
 Logger::Logger()
